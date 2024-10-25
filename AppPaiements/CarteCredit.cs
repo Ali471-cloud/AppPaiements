@@ -9,10 +9,9 @@
         NumeroCarte = numeroCarte;
     }
 
-    // Implémentation de la méthode abstraite AfficherDetails
+    // Affiche les détails du paiement par Carte de Crédit
     public override void AfficherDetails()
     {
-        Console.WriteLine($"Paiement par Carte de Crédit:");
-        Console.WriteLine($"Montant : {Montant}, Description : {Description}, Numéro de Carte : {NumeroCarte}");
+        Console.WriteLine($"Carte de Crédit: Montant = {Montant} €, Description = {Description}, Numéro = {NumeroCarte}");
     }
 }

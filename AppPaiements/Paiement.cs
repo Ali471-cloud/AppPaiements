@@ -3,13 +3,13 @@
     public double Montant { get; set; }
     public string Description { get; set; }
 
-    // Constructeur qui prend le montant et la description en paramètres
+    // Constructeur de base pour Paiement
     public Paiement(double montant, string description)
     {
         Montant = montant;
         Description = description;
     }
 
-    // Méthode abstraite qui devra être implémentée par les classes filles
+    // Méthode abstraite pour afficher les détails
     public abstract void AfficherDetails();
 }

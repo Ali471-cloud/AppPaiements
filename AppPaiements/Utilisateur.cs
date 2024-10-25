@@ -12,7 +12,7 @@
         Email = email;
     }
 
-    // Méthode pour afficher les détails de l'utilisateur
+    // Affiche les détails de l'utilisateur
     public void AfficherDetails()
     {
         Console.WriteLine($"Nom : {Nom}, Prénom : {Prenom}, Email : {Email}");

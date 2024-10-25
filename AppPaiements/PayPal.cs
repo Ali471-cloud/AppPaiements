@@ -9,10 +9,9 @@
         Email = email;
     }
 
-    // Implémentation de la méthode abstraite AfficherDetails
+    // Affiche les détails du paiement PayPal
     public override void AfficherDetails()
     {
-        Console.WriteLine($"Paiement via PayPal:");
-        Console.WriteLine($"Montant : {Montant}, Description : {Description}, Email : {Email}");
+        Console.WriteLine($"PayPal: Montant = {Montant} €, Description = {Description}, Email = {Email}");
     }
 }
